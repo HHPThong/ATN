@@ -1,1 +1,1 @@
-"demo-asm" 
+"demo" 
