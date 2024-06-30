@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Product</title>
+</head>
+<body>
+    <h1>Create Product</h1>
+    <form method="post" action="/users/create">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+        </div>
+        <div>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+        </div>
+        <div>
+            <label for="shop_id">Shop ID:</label>
+            <input type="number" id="shop_id" name="shop_id" required>
+        </div>
+        <button type="submit">Create</button>
+        <a href="/users">Return</a>
+    </form>
+</body>
+</html>

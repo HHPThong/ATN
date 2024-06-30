@@ -5,4 +5,5 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Cloud Computing ASM' });
 });
+
 module.exports = router;
